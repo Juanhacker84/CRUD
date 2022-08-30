@@ -1,0 +1,146 @@
+/**/
+*{
+	margin: 0; /*memberi jarak teks*/  
+	padding: 0;
+	color: rgb(152,135,896);/*memberi warna yg di file index h1,header yg l1*/
+	font-family: sans-serif;
+/*buat di bagian atas */
+}
+a{
+	color: inherit;/*akan menggunkana warna yg telah disesuaikan*/
+	text-decoration:none;/*hilangkan garis bawah pd teks biar lbh rap*/
+}
+nav{/*member warna hitam persegi panjang dibagian atas atau disbt navigasi*/
+	background: url("hole.jpg");
+	color: ;  
+}
+
+/*mengatur tulisa yg di navigasi dan memberi garis hitam atau hiasan*/
+li{
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px;
+
+}
+/*hover memberi warna pd kursor yg akan memilih*/
+li:hover{
+	background: rgb(198,869,876);
+}
+/*memberi jarak pd tulisan*/
+.container{
+	padding: 10px;	
+}
+
+.home{
+	width: 50%; /*ri bentuk pd background*/
+	background: url("gojo.jpg"); /*memberi warnna pd background home*/
+	margin: 15% auto;
+	text-align: center;
+	border-radius: 100px;
+	padding: 15px;
+
+}	
+/*cm teks yg ada di home teredit*/
+.home h1{
+	font-size: 60px;
+	color: white;
+}
+.home h5{
+	font-size: 20px;
+}
+
+.footer{
+	background: url("gojo.jpg");
+	width: 100%;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.login{
+	width: 500px; 
+	margin: 10% auto;
+	background-image: url("gojo_power.jpg");
+	text-align: center;
+}
+
+.login input{
+	display: block;/*biar  baris username dan passnya lbh rapi*/
+	margin: 10px 0;
+	font-size: 18px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.blog{
+	width: 70%;
+	margin: 20px;
+}
+
+.post{
+	padding: 15%;
+	background: url("download(1).jpg");
+	border-radius: 15px:; 
+	margin: px 0;
+	color: white;
+}
+
+.post h1{
+	font-size: 45px;
+	margin: 10px 0;
+	background: url("images.jpg");
+	color: white;
+}
+
+.tgl{
+	margin: 5px;
+	display: block;
+	background: url("gojo.jpg");
+	color: white;
+}
+
+.isi{
+	margin: 5px 0;
+	color: black;
+}
+
+.tombol{
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;	
+}
+
+.edit{
+	background: url("gojo.jpg");
+}
+
+
+.delete{
+	background: url("gojo.jpg");
+}
+
+.tambah{
+	background: url("gojo_power.jpg");
+
+}
+
+.form label{
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+}
+
+.form input, textarea{
+	font-size: 16px;
+	padding: 10px;
+	width: 100%;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+
+.form input[type="submit"]{/*digunkanan utk hyn tombol submit*/
+	width: 10%;
+}
+/*note fungsi height hnya untuk membatasi pd background .home*/
